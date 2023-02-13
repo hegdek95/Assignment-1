@@ -1,67 +1,110 @@
 /* assignment -1 */
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="style.css" rel="stylesheet" />
-    <title>Assignment 1</title>
+.main-header {
+  background-color: darkslateblue;
+  /* padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px; */
+  padding: 2px 6px;
+  margin-bottom: 20px;
+  margin-top: -23px;
+  /* height: 80px; */
+}
+.footer {
+  padding: 230px;
+  text-align-last: center;
+}
+h1 {
+  color: aliceblue;
+}
 
-    <header class="main-header">
-      <h1>
-        Informacion De Te<a class="a1" href="login.html">Login</a>
-        <a class="a2" href="#"> signUp</a> <a class="a3" href="#">More Info</a>
-      </h1>
-    </header>
-  </head>
-  <body>
-    <div class="container">
-      <div class="image">
-        <img src="tea.jpg" alt="tea" />
-      </div>
-      <div class="text">
-        <p>
-          According to legend, tea has been known in China since about 2700 BCE.
-          For millennia it was a medicinal beverage obtained by boiling fresh
-          leaves in water, but around the 3rd century CE it became a daily
-          drink, and tea cultivation and processing began. The first published
-          account of methods of planting, processing, and drinking came in 350
-          CE. Around 800 the first seeds were brought to Japan, where
-          cultivation became established by the 13th century. Chinese from Amoy
-          brought tea cultivation to the island of Formosa (Taiwan) in 1810. Tea
-          cultivation in Java began under the Dutch, who brought seeds from
-          Japan in 1826 and seeds, workers, and implements from China in 1833.
-        </p>
-      </div>
-    </div>
-    <div class="t1">
-      <h2>TEA EXPORTING COUNTRIES</h2>
-    </div>
+.a1 {
+  font-size: medium;
+  padding: auto;
+  margin-left: 1000px;
+}
+.a1:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+  margin-left: 1000px;
+}
+.a1:link {
+  text-decoration: none;
+  margin-left: 1000px;
+}
 
-    <ol>
-      <li>China 2,400,000 Mt tea produced</li>
-      <li>India 900,000 Mt tea produced</li>
-      <ul>
-        <li>Tamil Nadu</li>
-        <li>West Bengal</li>
-        <li>Assam</li>
-      </ul>
-      <li>Kenya 305,000 Mt tea produced</li>
-    </ol>
+/* a2 */
 
-    <a class="p" href="https://www.tatatea1868.com/" target="_blank"
-      >Purchase</a
-    >
+.a2 {
+  font-size: medium;
+}
+.a2:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+  margin-left: 946px;
+}
+.a2:link {
+  text-decoration: none;
+  /* margin-left: 945px; */
+}
 
-    <footer class="footer">
-      <p>
-        For contact<br />
-        <a class="email" href="mailto:hegdek95@gmail.com"
-          >hegedek95@gmail.com</a
-        >
-      </p>
-    </footer>
-  </body>
-</html>
+/* a3 */
+
+.a3 {
+  font-size: medium;
+}
+.a3:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+  margin-left: 947px;
+}
+.a3:link {
+  text-decoration: none;
+  /* margin-left: 945px; */
+}
+/* tea  define*/
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  max-width: 100%;
+}
+.image {
+  flex-basis: 40%;
+}
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: break-word;
+}
+
+/* h2 */
+.t1 {
+  text-decoration: underline;
+}
+.l1 {
+  text-align: center;
+}
+/* button with link */
+.p:link,
+.p:visited {
+  background-color: cornflowerblue;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.p:hover,
+.p:active {
+  background-color: red;
+}
+
 
